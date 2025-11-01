@@ -8,14 +8,12 @@ public class GameFrame extends JFrame{
     private JLabel gameInfoLabel;
     private GamePanel gamePanel;
 
-
     public GameFrame(){
         setLayout(new BorderLayout());
         setSize(800,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         getContentPane().setBackground(Color.GRAY);
-
 
         // Titel överst (NORTH)
         JLabel title = new JLabel("15 - Spelet", SwingConstants.CENTER);
