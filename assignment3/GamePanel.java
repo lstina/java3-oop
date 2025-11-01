@@ -8,6 +8,7 @@ public class GamePanel extends JPanel {
     public GamePanel(){
         setLayout(new GridLayout(4,4, 5,5));
         setBorder(new EmptyBorder(30, 30, 30, 30));
+        setCursor(new Cursor(Cursor.HAND_CURSOR));
         setBackground(Color.LIGHT_GRAY);
 
 
