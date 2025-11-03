@@ -9,7 +9,7 @@ public class GamePanel extends JPanel {
         setLayout(new GridLayout(4,4, 5,5));
         setBorder(new EmptyBorder(30, 30, 30, 30));
         setCursor(new Cursor(Cursor.HAND_CURSOR));
-        setBackground(Color.LIGHT_GRAY);
+        setBackground(Color.GRAY);
 
 
         for (int i = 0;  i < 16; i++){
