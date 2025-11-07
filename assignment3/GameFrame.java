@@ -10,6 +10,9 @@ public class GameFrame extends JFrame{
     private FifteenGame game;
     private GamePanel gamePanel;
 
+    /** Skapar fönstret för spelet
+     * Sätter storlek, titel, bakgrundsfärg och vad som händer när man stänger fönstret
+     */
 
     public GameFrame(){
         setSize(800,600);
@@ -18,6 +21,8 @@ public class GameFrame extends JFrame{
         getContentPane().setBackground(Color.GRAY);
         setTitle("15-spelet");
 
+        // Skapar ett nytt FifteenGame-objekt med storleken 4*4
+        // Skapar sedan en GamePanel som ritar ut spelets brickor och kopplar det till logiken
         game = new FifteenGame(4);
         gamePanel = new GamePanel(game);
 
